@@ -29,7 +29,7 @@ public class HerokuApplication {
         log.info("hello2");
         return "world2";
     }
-    
+
     public static void main(String[] args) {
         SpringApplication.run(HerokuApplication.class, args);
     }

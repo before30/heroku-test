@@ -24,6 +24,12 @@ public class HerokuApplication {
        return "hi" + arg1 + " " + arg2;
     }
 
+    @GetMapping("/hello2")
+    public String hello2() {
+        log.info("hello2");
+        return "world2";
+    }
+    
     public static void main(String[] args) {
         SpringApplication.run(HerokuApplication.class, args);
     }

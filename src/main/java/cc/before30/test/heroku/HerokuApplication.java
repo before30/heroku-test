@@ -15,7 +15,7 @@ public class HerokuApplication {
     @GetMapping("/hello")
     public String hello() {
         log.info("hello");
-        return "world";
+        return "world22222";
     }
 
     @GetMapping("/hi")
